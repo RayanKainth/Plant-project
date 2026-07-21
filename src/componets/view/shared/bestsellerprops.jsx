@@ -1,21 +1,25 @@
 const Bestsellerprops = ({ seller }) => {
   return (
     
-    <div className="bg-[#46FF3652]">
+    <div className="bg-[#46FF3652] rounded-[10px]">
 
-      <img className="w-full h-[300px] object-cover"
+      <img className="w-[300px] h-[250px] object-contain"
         src={seller.image}
-        alt={seller.name}
-      />
+        alt={seller.name}/>
+        
+<div className="flex justify-between bg-white">
+      <div className="justify-between items-center pt-[10px] bg-white">
+        <p className="text-[22px] font-montserrat font-semibold">{seller.name}</p>
+        <p className="bg-white text-[#1D6148] text-[22px] font-montserrat font-extrabold">{seller.price}</p>
 
-      <div className="flex justify-between items-center  bg-white">
-        <p>{seller.name}</p>
-
+        </div>
+        <div className="pt-[20px]">
         <button className="bg-[#1D6148] text-white px-4 py-2 rounded-[5px]">
           Buy Now
         </button>
+        </div>
+      
       </div>
-      <p className="bg-white">{seller.price}</p>
 
     </div>
   )

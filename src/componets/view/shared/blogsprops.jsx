@@ -22,7 +22,7 @@ const Blogsprops = ({ blog }) => {
         </div>
         <p className="font-montserrat text-[18px] font-medium pt-[10px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
              Lorem Ipsum has been the industry's standard dummy text ever.</p>
-             <div className="flex justify-between">
+             <div className="flex gap-[20px]">
                 <div className="flex gap-2 items-center pt-[10px]">
                  <BiSolidLike className="text-[20px]"/>
                  <p className="text-[16px] font-medium font-montserrat text-[#C2C2C2]">5 Likes</p>

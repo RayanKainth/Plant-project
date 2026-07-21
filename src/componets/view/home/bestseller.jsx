@@ -28,7 +28,7 @@ const Bestseller = () => {
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 
-        pt-[30px] max-w-[1620px] justify-items-center">
+        pt-[30px] max-w-[1620px] justify-items-center gap-[20px]">
             {BestsellerData.map((seller, id) => (
                 <Bestsellerprops key={id} seller={seller}/>
             ))}
