@@ -65,7 +65,9 @@ const Footer = () => {
     </div>
     </div>
     <div className="bg-[#318063] flex justify-center pt-[20px] pb-[20px]">
+      <div className="container">
       <p className="text-white text-[18px] font-poppins">Plantero Plants © 2023 | Plantero Plants Shop. All Rights Reserved.</p>
+      </div>
       </div>
     </>
   )
