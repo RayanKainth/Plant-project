@@ -23,7 +23,8 @@ export default {
       fontFamily: {
         Passion:['PassionOne', 'cursive'],
         montserrat: ['Montserrat', 'sans-serif'],
-        LEMONMILK: ['LEMONMILK, sans-serif']
+        LEMONMILK: ['LEMONMILK, sans-serif'],
+        poppins: ['Poppins', 'sans-serif']
       },
     },
   },
