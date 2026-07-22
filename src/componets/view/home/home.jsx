@@ -45,19 +45,14 @@ const Home = () => {
                  </button>
         </div>
         <div className="pt-[30px] lg:w-1/2 h-[620px]">
-        <img className="lg:object-cover w-full h-full" src="/assets/images/about_company.svj.jpg" alt="" />
+        <img className="object-contain lg:object-cover w-full h-full" src="/assets/images/about_company.svj.jpg" alt="" />
         </div>
       </div>
     </div>
     <div className="container">
-      <div className="max-w-[1620px]">
-        <div className="pt-[60px]">
-        <p className="font-montserrat font-semibold text-[50px]">Shop By Category</p>
-        </div>
-          <Shopcards />
-      </div>
-    </div>
       
+    </div>
+      <Shopcards />
         <Bestseller/>
         <Newarrivals/>
         <Client/>
