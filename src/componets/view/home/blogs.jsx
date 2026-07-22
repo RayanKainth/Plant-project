@@ -12,7 +12,7 @@ const Blogs = () => {
   return (
     <div className="container">
         <div className="pt-[60px] flex justify-between items-center">
-                <p className="font-montserrat font-semibold text-[50px]">Client Reviews</p>
+                <p className="font-montserrat font-semibold text-[50px]">Latest Blogs</p>
                 <div className="flex gap-2">
                 <button className="bg-[#E8E8E8] text-white px-3 py-3 rounded-[5px]">
                   <FaLessThan/>

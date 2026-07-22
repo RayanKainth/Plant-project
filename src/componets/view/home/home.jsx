@@ -44,13 +44,10 @@ const Home = () => {
                   Learn More
                  </button>
         </div>
-        <div className="pt-[30px] lg:w-1/2 h-[620px]">
+        <div className="pt-[10px] lg:pt-[30px] lg:w-1/2 h-[620px]">
         <img className="object-contain lg:object-cover w-full h-full" src="/assets/images/about_company.svj.jpg" alt="" />
         </div>
       </div>
-    </div>
-    <div className="container">
-      
     </div>
       <Shopcards />
         <Bestseller/>

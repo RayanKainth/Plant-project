@@ -25,7 +25,7 @@ const Client = () => {
           </button>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-[20px] md:grid-cols-2 md:gap-[30px] lg:grid-cols-4 
+        <div className="grid grid-cols-1 gap-[40px] md:grid-cols-2 md:gap-[30px] lg:grid-cols-4 
         pt-[80px] max-w-[1620px] justify-items-center mx-auto lg:gap-[10px]">
             {ClientData.map((clients, id) => (
                 <Clientprops key={id} clients={clients}/>
