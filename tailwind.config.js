@@ -12,11 +12,13 @@ export default {
         md: "768px",
         lg: "1024px",
         xl: "1280px",
-        "2xl": "1920px"
+        "2xl": "1792px"
       },
       padding: {
-        DEFAULT: "1rem", // 16px on mobile
-        sm: "1.5rem",    // 24px on small screens
+        DEFAULT: "0",
+        //  lg: "2rem",
+        //  "xl": "3rem",
+        //  "2xl": "4rem"
       },
     },
     extend: {

@@ -7,7 +7,7 @@ const Blogsprops = ({ blog }) => {
   return (
     <>
       <div className="">
-        <img src={blog.image} alt={blog.name} className="object-cover rounded-[10px]" />
+        <img src={blog.image} alt={blog.name} className="rounded-[10px] w-full" />
         <p className="font-montserrat font-bold text-[24px] pt-[20px]">{blog.name}</p>
         <div className="flex justify-between items-center">
             <div className="flex gap-3 items-center pt-[20px]">

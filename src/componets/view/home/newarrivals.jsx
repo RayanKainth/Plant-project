@@ -23,8 +23,8 @@ const Newarrivals = () => {
           </button>
           </div>
         </div>
-      <div className="grid grid-cols-1 gap-[20px] sm:grid-cols-2 lg:grid-cols-4 pt-[30px]
-       max-w-[1620px] justify-items-center">
+      <div className="grid grid-cols-1 gap-[35px] sm:grid-cols-2 lg:grid-cols-4 pt-[30px]
+       justify-items-center">
             {NewarrivalsData.map((arrivals, id) => (
                 <Newarrivalsprops key={id} arrivals={arrivals}/>
             ))}

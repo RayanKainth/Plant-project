@@ -21,6 +21,10 @@
   src: url(/public/assets/fonts/Poppins-Regular.ttf) format("truetype");
 }
 
+/* @import "tailwindcss";
+@utility container{
+      margin:32px;
+}; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

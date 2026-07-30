@@ -2,19 +2,19 @@
 const Clientprops = ({clients}) => {
   return (
     
-<div className="bg-[#1D6148] w-full max-w-[480px] relative p-5 gap-3">
+<div className="bg-[#1D6148] w-full max-w-[500px] h-[250px] p-7 relative rounded-[10px]">
+  
 
   <img 
     src={clients.image} 
     alt="Inverted Comma"
     className="absolute top-[-40px] right-[20px] w-[50px] h-[50px]"
   />
-
   <div className="flex items-center gap-4">
     <img 
       src={clients.image1} 
       alt="Client" 
-      className="max-w-[120px]"
+      className="object-contain max-w-[100px]"
     />
 
     <div className="flex flex-col gap-1">
@@ -25,7 +25,7 @@ const Clientprops = ({clients}) => {
       <img 
         src={clients.image2} 
         alt="Rating" 
-        className="max-w-[144px]"
+        className="object-contain"
       />
     </div>
   </div>

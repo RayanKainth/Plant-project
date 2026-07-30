@@ -24,7 +24,7 @@ const Blogs = () => {
                 </div>
                 <div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
-        pt-[30px] max-w-[1620px] justify-items-center gap-[20px]">
+        pt-[30px] justify-items-center gap-[30px]">
             {BlogsData.map((blog, id) => (
                 <Blogsprops key={id} blog={blog}/>
             ))}
